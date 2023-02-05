@@ -6,6 +6,131 @@
 header {
   width : 100%;
   height : 50px;
+  background-color: #ff9a4b;
+  
+}
+.log {
+  margin: 50px 30px;
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+  width: 960px;
+  
+}
+.log-botan {
+   position: absolute;
+  padding: 3px 1px;
+  margin: 0; 
+  background-color: #ff9a4b;
+  border-radius: 2px;
+  font-size: 11px;
+  color: #fff;
+  z-index: 9999;
+  top: 0;
+  
+}
+.log-main {
+  background-color: #eeeeee;
+  width: 300px;
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+  margin: 50px 15px;
+  
+  
+
+  
+}
+
+
+
+.log-box1 {
+  background-image: url(img/flow01.png);
+  width: auto;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  margin: 10px;
+  
+}
+.log-box2 {
+  background-image: url(img/flow02.png);
+  width: auto;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  margin: 10px;
+}
+.log-box3 {
+  background-image: url(img/flow03.png);
+  width: auto;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  margin: 10px;
+}
+.text-header {
+  margin: 15px 0 5px 0;
+}
+.log-text {
+  margin: 0 10px 10px 10px;
+  
+}
+
+footer {
+  background-color: #aaaaaa;
+  height: 50px;
+  width: 100%;
+  
+}
+
+
+/*タブレット横置きサイズ1024px*/
+@media screen and (max-width:1024px) {
+  
+}
+/*タブレット縦置きサイズ768px*/
+@media screen and (max-width:768px) {
+  header{
+    width: 100%;
+  }
+  main {
+    width: 100%;
+  }
+  .log {
+    width: 100%;
+    display: block;
+    margin: 30px 0;
+  }
+  
+  .log-main {
+    width: 90%;
+    display: block;
+    margin: 20px;
+  }
+  .log-box1 .log-box2 .log-box3 {
+    background-position: center;
+    width: 0;
+  
+  }
+  
+  footer {
+    width: 100%;
+  }
+  
+}
+/*スマホサイズ425px*/
+@media screen and (max-width:425px) {
   
   
 }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
